@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700');
+
+html,body {
+	background:#006be5 !important;
+	font-family: 'Roboto', sans-serif !important;
+	color:white !important;
+}
+
+.custom-navbar {
+	background:#0061c9 !important;
+}
+
+.welcome-section {
+	margin-top:4% !important;
+}
+
+.wrapper-form-login,.text-muted {
+	color:white !important;
+}
+
+.custom-navbar a,.custom-navbar ul li a {
+	color:white !important;
+	transition:1s ease;
+	-transition:1s ease;
+	-moz-transition:1s ease;
+	-webkit-transition:1s ease;
+	-o-transition:1s ease;
+}
+
+.custom-navbar a:hover,.custom-navbar ul li a:hover {
+	color:#2a7dd6 !important;
+	transition:1s ease;
+	-transition:1s ease;
+	-moz-transition:1s ease;
+	-webkit-transition:1s ease;
+	-o-transition:1s ease;
+}
+
+.welcome-text {
+	margin-top:26%;
+	font-weight:300 !important;
+}
+
+.welcome-text-tile {
+	margin-top:6% !important;
+	font-weight:300 !important;
+}
+
+.slug-help-block {
+	display:block !important;
+	font-size:18px !important;
+}
+
+.wrapper-form-login {
+	padding:55px 0;
+}
+
+.custom-input {
+	border-radius:0px !important;
+	background:#0061c9 !important;
+	color:white !important;
+	border-color:#0061c9 !important;
+	padding: 13px 15px !important;
+}
+
+.custom-input::placeholder {
+  color: white !important;
+}
+
+.custom-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+}
+.custom-input::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+}
+.custom-input:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+}
+.custom-input:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+}
+
+.btn-login {
+	border-radius:0px !important;
+	margin-top:50px !important;
+	margin-top: 35px !important;
+    padding: 10px !important;
+    background:#0b7aef !important;
+}
+
+.getting-start-wrapper a {
+	border-radius:0px !important;
+	padding: 12px 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.wrapper-table {
+	margin-top:35px;
+	background: white;
+    color: black;
+    padding: 30px 50px;
+}
+
+.wrapper-button {
+	margin-top:145px;
+}
